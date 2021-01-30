@@ -3,10 +3,34 @@
 <head>
  <title>TAROT</title>
  <meta charset="utf-8">
+ <style>
+ h1{
+   border:2px solid grey;
+   padding:6px;
+   margin:7px;
+   display:block;
+   width:50px;
+ }
+#door{
+  text-align: center;
+}
+ .simbol{
+   text-align:center;
+ }
+ #music{
+   text-align: right;
+
+ }
+ </style>
+
 </head>
 <body>
 <h1>TAROT</h1>
-<img src="taro main2.jpg" width="100%">
+<div id=door>
+  <img src="taro main2.jpg" width="650px">
+</div>
+
+<div class=simbol>
 <a href = "sun.html"><img src="sun.png" width="50px"></a>
 <img src="luna.png" width="50px">
 <img src="mercury.png" width="50px">
@@ -14,6 +38,9 @@
 <img src="mars.png" width="50px">
 <img src="jupiter.png" width="50px">
 <img src="saturn.png" width="50px">
+</div>
+<div id=music>
+  <h5>T'as où les vaches?-Dan Bodan</h5><audio src="bgm.mp3" autoplay controls> </audio>
+</div>
 </body>
-<h5>T'as où les vaches?-Dan Bodan</h5><audio src="bgm.mp3" autoplay loop> </audio>
 </html>
